@@ -1,0 +1,190 @@
+@charset "UTF-8";
+
+.customoverlay {
+	position: relative;
+	bottom: 85px;
+	border-radius: 6px;
+	border: 1px solid #ccc;
+	border-bottom: 2px solid #ddd;
+	float: left;
+}
+
+.customoverlay:nth-of-type(n) {
+	border: 0;
+	box-shadow: 0px 1px 2px #888;
+}
+
+.customoverlay a {
+	display: block;
+	text-decoration: none;
+	color: #000;
+	text-align: center;
+	border-radius: 6px;
+	font-size: 14px;
+	font-weight: bold;
+	overflow: hidden;
+	background: #d95050;
+	background: #d95050
+		url(https://t1.daumcdn.net/localimg/localimages/07/mapapidoc/arrow_white.png)
+		no-repeat right 14px center;
+}
+
+.customoverlay .title {
+	display: block;
+	text-align: center;
+	background: #fff;
+	margin-right: 35px;
+	padding: 10px 15px;
+	font-size: 14px;
+	font-weight: bold;
+}
+
+.customoverlay:after {
+	content: '';
+	position: absolute;
+	margin-left: -12px;
+	left: 50%;
+	bottom: -12px;
+	width: 22px;
+	height: 12px;
+	background:
+	url('https://t1.daumcdn.net/localimg/localimages/07/mapapidoc/vertex_white.png')
+}
+
+#login {
+	float: right;
+	margin: 20px;
+	word-spacing: 20px;
+	margin-right: 96px;
+}
+
+#login a {
+	text-decoration: none;
+	color: #333;
+}
+
+.nav-item a{
+ color: rgb(237,102,87);
+ font-weight: bold;
+ font-size: 15px;
+
+}
+body{
+	
+	font-size: 17px;
+	font-family: monospace;
+	
+}
+
+#login{
+	
+	float:right;
+	margin:20px;
+	word-spacing: 20px; 
+	margin-right: 96px;
+
+}
+
+#login a{
+	
+	text-decoration: none;
+	color:  #333;
+	
+	
+}
+
+header h1{
+	text-align: center;
+	text-shadow: 2px 2px 2px gray;
+	margin-left: 350px;
+	
+}
+
+header h6{
+	text-align:center;
+	margin: 0 auto;
+	text-shadow: 2px 2px 2px yellow;
+	
+}
+
+#navi ul li{
+	display: inline-block;
+	font-weight: bold;
+
+}
+
+#navi a{
+	text-decoration: none;
+	font-size: 18px;
+	padding:  17px 80px 5px 80px;
+	display: inline-block;
+	color: black;
+
+}
+
+input[type="text"]{
+	border:2px solid;
+	float:right;
+	margin: 50px; 
+	width: 350px;
+	height: 30px;
+	padding-top: 0px;
+}
+
+select {
+width: 100px;
+height: 20px;
+padding-left: 10px;
+font-size: 16px;
+color: black;
+border: 1px solid;
+border-radius: 3px;
+}
+
+.art{
+	text-align: left;
+	margin: 30px;
+	margin-top: 80px;
+	
+}
+
+.space{
+	margin-left: 80px;
+	
+}
+
+.space img{
+	width:220px;
+	margin-left: 40px;
+	height: 320px;
+}
+
+.name{
+	text-decoration: none;
+	margin: 120px;
+	font-weight: bold;
+}
+.space img:hover{
+	border:5px solid #fff;
+	opacity: 2;
+}
+
+#foot{
+	padding: 5px 0;
+	background-color: rgb(237,102,87);
+	color: #fff;
+	text-align: center;
+	height: 140px;
+
+}
+
+#foot p{
+	display: inline-block;
+	font-size: 12px;
+	font-family: monospace;
+}
+
+#container{
+	background-color: rgb(240, 248, 223);
+}
+
