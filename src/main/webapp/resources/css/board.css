@@ -1,5 +1,4 @@
 @charset "UTF-8";
-
 body {
 	font-family: Arial, sans-serif;
 	margin: 0;
@@ -25,7 +24,6 @@ h1 {
 	margin-bottom: 20px;
 }
 
-.form-control {
 	width: 80px;
 }
 
@@ -44,25 +42,38 @@ label {
 	font-weight: bold;
 }
 
-input[type="text"], input[type="email"], input[type="password"], input[type="date"]
-	{
+span{
+	
 	width: 80%;
 	padding: 10px;
 	border-radius: 5px;
 	border: 1px solid #ccc;
 }
 
-input[type="submit"] {
-	width: 100%;
+textarea {
+    width: 80%;
+    padding: 10px;
+    border-radius: 5px;
+    border: 1px solid #ccc;
+}
+
+input[type="button"] {
+	width: 30%;
 	padding: 10px;
 	border-radius: 20px;
 	border: none;
 	background-color: rgb(240, 240, 18);
 	color: #fff;
 	cursor: pointer;
+
 }
 
-input[type="submit"]:hover {
+input[type="button"]:hover {
 	background: rgb(253, 253, 5);
 	transition: 0.5s;
 }
+
+ select {
+     height: 50px; 
+     width: 250px;
+        }

@@ -17,11 +17,6 @@
 <body>
 
 
-	<div id="login">
-		<a href="<%=request.getContextPath()%>/">home</a> <a
-			href="<%=request.getContextPath()%>/login.go" target="_blank">login</a>
-		<a href="<%=request.getContextPath()%>/join.go" target="_blank">join</a>
-	</div>
 	<jsp:include page="/WEB-INF/views/common/nav.jsp" />
 	
 	<ul class="nav nav-pills nav-fill">
@@ -39,8 +34,7 @@
 	<div id="map" style="width:100%; height: 600px;" align="center"></div>
 
 	<!-- 키 발급 -->
-	<script
-		src="https://dapi.kakao.com/v2/maps/sdk.js?appkey=49072393f4640596f3db81e26e421fb8"></script>
+	
 
 	<script>
 		var mapContainer = document.getElementById('map');// 지도를 표시할 div

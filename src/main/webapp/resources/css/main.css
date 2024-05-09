@@ -51,17 +51,7 @@
 	url('https://t1.daumcdn.net/localimg/localimages/07/mapapidoc/vertex_white.png')
 }
 
-#login {
-	float: right;
-	margin: 20px;
-	word-spacing: 20px;
-	margin-right: 96px;
-}
 
-#login a {
-	text-decoration: none;
-	color: #333;
-}
 
 .nav-item a{
  color: rgb(237,102,87);
@@ -76,22 +66,6 @@ body{
 	
 }
 
-#login{
-	
-	float:right;
-	margin:20px;
-	word-spacing: 20px; 
-	margin-right: 96px;
-
-}
-
-#login a{
-	
-	text-decoration: none;
-	color:  #333;
-	
-	
-}
 
 header h1{
 	text-align: center;
