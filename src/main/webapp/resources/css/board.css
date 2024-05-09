@@ -1,10 +1,12 @@
 @charset "UTF-8";
+
 body {
 	font-family: Arial, sans-serif;
 	margin: 0;
 	padding: 0;
 	background:rgb(237,102,87);
 }
+
 
 .container {
 	width: 500px;
@@ -77,3 +79,78 @@ input[type="button"]:hover {
      height: 50px; 
      width: 250px;
         }
+        
+          p{
+        color: gray;
+    }
+
+    #button2{
+        float: right;
+        width: 150px;
+        height: 40px;
+        font-size: 15px;
+        font-weight: bold;
+        border: 0;
+        outline: 1.5px rgb(5, 5, 5) solid;
+        border-radius: 5px;
+        padding-left: 10px;
+        background-color: rgb(237,102,87);
+        color: #fff;
+        
+    }
+    
+        #button1{
+        float: center;
+        width: 150px;
+        height: 40px;
+        font-size: 15px;
+        font-weight: bold;
+        border: 0;
+        outline: 1.5px rgb(5, 5, 5) solid;
+        border-radius: 5px;
+        padding-left: 10px;
+        background-color: rgb(237,102,87);
+        color: #fff;
+        
+    }
+
+header h1{
+	text-align: center;
+	text-shadow: 2px 2px 2px gray;
+	margin-left: 350px;
+	
+}
+
+header h6{
+	text-align:center;
+	margin: 0 auto;
+	text-shadow: 2px 2px 2px yellow;
+	
+}
+p{
+    text-align:center;
+}
+#foot{
+	padding: 5px 0;
+	background-color: #8bdc01;
+	color: #fff;
+	text-align: center;
+	height: 140px;
+
+}
+
+#foot p{
+	display: inline-block;
+	font-size: 12px;
+	font-family: monospace;
+}
+#container{
+	background-color: rgb(240, 248, 223);
+}
+
+  th {
+        font-size: 20px; 
+        
+    }
+        
+        

@@ -20,8 +20,7 @@
 	<jsp:include page="/WEB-INF/views/common/nav.jsp" />
 	
 	<ul class="nav nav-pills nav-fill">
-		<li class="nav-item"><a class="nav-link" href="#">카테고리로 모아보기</a></li>
-		<li class="nav-item"><a class="nav-link" href="<%=request.getContextPath()%>/board_list.go">방문 평점</a></li>
+		<li class="nav-item"><a href="<%=request.getContextPath()%>/board_list.go" style="font-size: 20px;">방문 평점 보러가기</a></li>
 </ul>
 
 	<hr>
