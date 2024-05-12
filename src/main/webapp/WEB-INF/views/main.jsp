@@ -34,7 +34,7 @@
 
 	<!-- 키 발급 -->
 	
-
+	
 	<script>
 		var mapContainer = document.getElementById('map');// 지도를 표시할 div
 		var mapOption = {
@@ -147,14 +147,6 @@
 				});
 			});
 
-			// 마커에 mouseout 이벤트 추가
-			kakao.maps.event.addListener(marker, 'mouseout', function() {
-				// 커스텀 오버레이 숨기기
-				if (customOverlay) {
-					customOverlay.getContentElement().style.display = 'none';
-				}
-			});
-
 		}
 		// 카페 마커를 표시할 위치와 title 객체 배열입니다 
 		var cafePositions = [ {
@@ -214,14 +206,6 @@
 					content : overlayContent,
 					yAnchor : 1
 				});
-			});
-
-			// 카페 마커에 mouseout 이벤트 추가
-			kakao.maps.event.addListener(cafeMarker, 'mouseout', function() {
-				// 커스텀 오버레이 숨기기
-				if (customOverlay) {
-					customOverlay.getContentElement().style.display = 'none';
-				}
 			});
 
 		}
